@@ -9,10 +9,10 @@ docker run -it sverrirab/debian bash
 
 Build yourself using:  
 ```
-docker build -t debian
+docker build -t sverrirab/debian .
 ```
 
 And run your build:
 ```
-docker run -it debian bash
+docker run -it sverrirab/debian bash
 ```

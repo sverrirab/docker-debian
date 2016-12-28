@@ -19,4 +19,6 @@ RUN apt-get update && \
         vim                     \
         traceroute              \
         dnsutils                \
-        htop
+        htop                    \
+        netcat                  \
+        telnet
