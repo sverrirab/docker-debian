@@ -14,8 +14,11 @@ ENV LC_ALL en_US.UTF-8
 
 RUN apt-get update && \
     apt-get install -y --force-yes --no-install-recommends \
+        sudo                    \
         curl                    \
         wget                    \
+        zip                     \
+        unzip                   \
         vim                     \
         traceroute              \
         dnsutils                \
