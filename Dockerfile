@@ -24,4 +24,5 @@ RUN apt-get update && \
         dnsutils                \
         htop                    \
         netcat                  \
-        telnet
+        telnet                  \
+        openssh-client
